@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HotelBook</title>
+</head>
+
+<body>
+
+  <div class="navbar-fixed">
+    <nav class="velvet">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo">
+            <img src="images/icon.png" width="65">
+          </a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#search">Search</a>
+            </li>
+            <li>
+              <a href="#popular">Popular Hotels</a>
+            </li>
+            <li>
+              <a href="#gallery">Gallery</a>
+            </li>
+            <li>
+              <a href="#contact">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <section class="slider">
+    <ul class="slides">
+      <li>
+        <img src="images/firstslide.png" alt="">
+        <div class="caption right-align">
+          <h2>Choose your view</h2>
+          <a href="#" class="btn btn-large btnslider">Learn More</a>
+        </div>
+      </li>
+      <li>
+        <img src="images/secondslide.jpg" alt="">
+        <div class="caption left-align">
+          <h2>We work only with professionals</h2>
+          <a href="#" class="btn btn-large btnslider">Learn More</a>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <div class="container-fluid search">
+    <section id="search" class="section section-search velvet darken-1 white-text center scrollspy">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+
+            <h3 class="B5">Search Hotels</h3>
+            <div class="input-field">
+              <input class="white grey-text autocomplete" placeholder="  Hilton, Rixos etc." type="text" id="autocomplete-input">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section id="popular" class="section section-popular scrollspy">
+    <div class="container">
+      <div class="row">
+        <h4 class="center">
+          <span class="text1">Popular</span> Choices</h4>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="https://mmf5angy.twic.pics/sites/default/files/styles/intro_widget_image_desktop/twicpics/2020-12/Legal%20header%20photo%281%29.jpg?itok=kjXOQJHL&twic=v1/cover=1600x900" alt="">
+              <span class="card-title">Rixos</span>
+            </div>
+            <div class="card-content">
+              <p>
+                Vivamus laoreet ligula id ligula feugiat, ut rutrum felis vestibulum. Sed urna urna, consectetur scelerisque elit vitae, varius malesuada nunc. In eu ex non augue posuere ornare a eget felis. Ut mollis elit eu velit suscipit eleifend. Nullam commodo congue pellentesque. Suspendisse a malesuada nisi, id pulvinar sem. In vel gravida magna. Phasellus ac tempus lectus, at facilisis libero. Nam nec euismod nunc, at feugiat tellus. In a diam mauris. Sed tristique lacus a hendrerit aliquam.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="https://i.pinimg.com/originals/6c/d3/b1/6cd3b1666a7781428d37f0f2b4fd8542.jpg" alt="">
+              <span class="card-title">Hilton</span>
+            </div>
+            <div class="card-content">
+              <p>Vivamus laoreet ligula id ligula feugiat, ut rutrum felis vestibulum. Sed urna urna, consectetur scelerisque elit vitae, varius malesuada nunc. In eu ex non augue posuere ornare a eget felis. Ut mollis elit eu velit suscipit eleifend. Nullam commodo congue pellentesque. Suspendisse a malesuada nisi, id pulvinar sem. In vel gravida magna. Phasellus ac tempus lectus, at facilisis libero. Nam nec euismod nunc, at feugiat tellus. In a diam mauris. Sed tristique lacus a hendrerit aliquam.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="https://cdn.hipwallpaper.com/i/24/58/i3Bfl9.jpg" alt="">
+              <span class="card-title">Ritz-Carlton</span>
+            </div>
+            <div class="card-content">
+              <p>Vivamus laoreet ligula id ligula feugiat, ut rutrum felis vestibulum. Sed urna urna, consectetur scelerisque elit vitae, varius malesuada nunc. In eu ex non augue posuere ornare a eget felis. Ut mollis elit eu velit suscipit eleifend. Nullam commodo congue pellentesque. Suspendisse a malesuada nisi, id pulvinar sem. In vel gravida magna. Phasellus ac tempus lectus, at facilisis libero. Nam nec euismod nunc, at feugiat tellus. In a diam mauris. Sed tristique lacus a hendrerit aliquam.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 center">
+          <a href="#contact" class="btn btn-large btncontact">
+            <i class="material-icons left">send</i> Contact us For Booking
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-follow white-text center aboutus">
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+         <div class="wrap">
+          <h2>About us</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget dolor maximus ligula viverra faucibus a et ipsum. Donec fermentum id velit et eleifend. In tempor suscipit ipsum, nec scelerisque eros placerat quis. Mauris vitae mauris sed ante semper viverra. Nulla hendrerit in lectus auctor dapibus. Mauris ultrices tortor ac faucibus porta. Donec suscipit a leo ac blandit.
+          </p></div>
+      <figure>
+          <img src="images/icon.png" width="120" height="120" alt="">
+      </figure>
+      <div class="empty">
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery" class="section section-gallery scrollspy">
+    <div class="container">
+      <h4 class="center">
+        <span class="text1">Gallery</span>
+      </h4>
+      <div class="row center">
+        <div class="col m4 s12">
+          <img class="img1" src="https://i.pinimg.com/originals/55/62/12/556212be54057614f9c2f2f8bc79caca.jpg" alt="">
+        </div>
+        <div class="col m4 s12">
+          <img class="img1" src="https://i.pinimg.com/originals/c8/6c/2d/c86c2d9beb2d5c6e91f83eb0af11be26.jpg" alt="">
+        </div>
+        <div class="col m4 s12">
+          <img class="img1" src="https://i.pinimg.com/originals/4b/06/c0/4b06c0f65e346acaa1fee44c88348a65.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+<div class="container-fluid">
+  <section id="contact">
+  <div class="row">
+        <div class="col s12 m6">
+          <div class="card-panel white-text center contact">
+            <i class="material-icons medium">email</i>
+            <h5>Contact Us For Booking</h5>
+            <i class="fas fa-angle-right fa-3x"></i>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card-panel contact1">
+            <h5>Fill out this form to contact us</h5>
+            <div class="input-field">
+              <input type="text" placeholder="Name" id="name">
+              <label for="name">Name</label>
+            </div>
+            <div class="input-field">
+              <input type="email" placeholder="Email" id="email">
+              <label for="email">Email</label>
+            </div>
+            <div class="input-field">
+              <input type="text" placeholder="Phone" id="phone">
+              <label for="phone">Phone</label>
+            </div>
+            <div class="input-field">
+              <textarea class="materialize-textarea" placeholder="Enter Message" id="message"></textarea>
+              <label for="message">Message</label>
+            </div>
+            <input type="submit" value="Submit" class="btn" style="background-color:#CD5C5C; border-radius:20px;">
+          </div>
+        </div>
+      </div>
+</div>
+  </section>
+
+  <div class="container-fluid footer">
+  <div class="container footer">
+    <div class="row footer">
+      <div class="col m6 s6">
+        <div class="boxfooter">
+          <h5 class="text10"><a href="index.html" style="color:#CD5C5C;">HotelBook</a></h5>
+          <a href="" style="text-decoration:none;">
+            <p class="text11">Vacancies</p>
+          </a>
+          <a href="" style="text-decoration:none;">
+            <p class="text11">Partners</p>
+          </a>
+          <a href="" style="text-decoration:none;">
+            <p class="text11">Recommendation</p>
+          </a>
+        </div>
+      </div>
+      <div class="col s6 m6">
+        <div class="boxfooter">
+          <h5 class="text10">Social Medias</h5>
+          <a href="" style="text-decoration:none;">
+            <p class="text11">Facebook</p>
+          </a>
+          <a href="" style="text-decoration:none;">
+            <p class="text11">Twitter</p>
+          </a>
+          <a href="" style="text-decoration:none;">
+            <p class="text11">Instagram</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="index.js">
+  </script>
+</body>
+
+</html>
